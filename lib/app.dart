@@ -16,6 +16,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         backgroundColor: backgroudColor,
         cardColor: lightblue,
+        primaryColor: blue,
         textTheme: const TextTheme(
             headline1: TextStyle(
                 color: blue, fontSize: 30, fontWeight: FontWeight.bold),

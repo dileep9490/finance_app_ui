@@ -20,16 +20,14 @@ class _PasswordInputFieldState extends State<PasswordInputField> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 100,
-        width: 350,
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
           color: Colors.white,
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(25),
           boxShadow: const [
             BoxShadow(
               color: Colors.grey,
-              blurRadius: 2.0,
+              blurRadius: 5.0,
               spreadRadius: 0.0,
               offset: Offset(2.0, 2.0), // shadow direction: bottom right
             )
