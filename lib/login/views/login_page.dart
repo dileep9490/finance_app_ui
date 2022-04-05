@@ -25,7 +25,7 @@ class _LoginPageView extends StatelessWidget {
     return Center(
       child: SingleChildScrollView(
         child: Container(
-          padding: EdgeInsets.all(30),
+          padding: const EdgeInsets.all(30),
           child: Column(
             children: [
               SizedBox(
@@ -33,14 +33,14 @@ class _LoginPageView extends StatelessWidget {
                 child: Image.asset('assets/images/logo.png'),
               ),
               const SizedBox(
-                height: 40,
+                height: 80,
               ),
               EmailInputField(
                   theme: theme,
                   icon: Icons.email_outlined,
                   title: "Email address"),
               const SizedBox(
-                height: 20,
+                height: 25,
               ),
               PasswordInputField(
                 theme: theme,
@@ -48,7 +48,7 @@ class _LoginPageView extends StatelessWidget {
                 title: "Password",
               ),
               const SizedBox(
-                height: 20,
+                height: 25,
               ),
               GestureDetector(
                 child: Container(
