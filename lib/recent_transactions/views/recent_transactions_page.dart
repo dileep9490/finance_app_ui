@@ -15,11 +15,14 @@ class RecentTransactionPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: theme.backgroundColor,
         elevation: 0,
-        leading: Container(
-          margin: const EdgeInsets.only(left: 10, top: 30),
-          child: Icon(
-            Icons.arrow_back_ios,
-            color: theme.iconTheme.color,
+        leading: GestureDetector(
+          onTap: () => Navigator.of(context).pop(),
+          child: Container(
+            margin: const EdgeInsets.only(left: 10, top: 30),
+            child: Icon(
+              Icons.arrow_back_ios,
+              color: theme.iconTheme.color,
+            ),
           ),
         ),
         actions: [
