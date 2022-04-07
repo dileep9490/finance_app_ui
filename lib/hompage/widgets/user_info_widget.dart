@@ -17,7 +17,16 @@ class UserInfoWidget extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(30), color: Colors.white),
+          borderRadius: BorderRadius.circular(30),
+          color: Colors.white,
+          boxShadow: const [
+            BoxShadow(
+              color: Colors.grey,
+              blurRadius: 5.0,
+              spreadRadius: 0.0,
+              offset: Offset(2.0, 2.0),
+            )
+          ]),
       child: Column(
         children: [
           Row(

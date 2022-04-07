@@ -17,15 +17,19 @@ class App extends StatelessWidget {
         backgroundColor: backgroudColor,
         cardColor: lightblue,
         primaryColor: blue,
+        iconTheme: const IconThemeData(color: darkBlue),dividerColor: lightText2,
         textTheme: const TextTheme(
-            headline1: TextStyle(
-                color: blue, fontSize: 30, fontWeight: FontWeight.bold),
-            headline2: TextStyle(
-                color: darkText, fontWeight: FontWeight.w900, fontSize: 20),
-            headline3: TextStyle(
-                color: blue, fontSize: 18, fontWeight: FontWeight.w500),
-            headline4: TextStyle(color: lightText, fontSize: 16),
-            headline5: TextStyle(color: lightText2, fontSize: 16)),
+          headline1:
+              TextStyle(color: blue, fontSize: 30, fontWeight: FontWeight.bold),
+          headline2: TextStyle(
+              color: darkText, fontWeight: FontWeight.w900, fontSize: 20),
+          headline3:
+              TextStyle(color: blue, fontSize: 18, fontWeight: FontWeight.w500),
+          headline4: TextStyle(color: lightText, fontSize: 16),
+          headline5: TextStyle(color: lightText2, fontSize: 16),
+          headline6: TextStyle(
+              color: darkText, fontSize: 14, fontWeight: FontWeight.w400),
+        ),
       ),
     );
   }
