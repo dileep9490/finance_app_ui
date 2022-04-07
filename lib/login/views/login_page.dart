@@ -78,13 +78,13 @@ class _LoginPageView extends StatelessWidget {
               children: [
                 Text(
                   "Singup",
-                  style: theme.textTheme.headline6!
-                      .copyWith(fontWeight: FontWeight.w400),
+                  style: theme.textTheme.headline5!
+                      .copyWith(fontWeight: FontWeight.w600),
                 ),
                 Text(
                   "Forgot Password?",
-                  style: theme.textTheme.headline6!
-                      .copyWith(fontWeight: FontWeight.w400),
+                  style: theme.textTheme.headline5!
+                      .copyWith(fontWeight: FontWeight.w600),
                 )
               ],
             )

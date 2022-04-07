@@ -32,15 +32,7 @@ class RoundedButton extends StatelessWidget {
               color: isSelected(selectedindex, index)
                   ? theme.primaryColor
                   : Colors.white,
-              borderRadius: BorderRadius.circular(20),
-              boxShadow: const [
-                BoxShadow(
-                  color: Colors.grey,
-                  blurRadius: 5.0,
-                  spreadRadius: 0.0,
-                  offset: Offset(2.0, 2.0),
-                )
-              ]),
+              borderRadius: BorderRadius.circular(20)),
           child: Text(
             title,
             style: theme.textTheme.headline6!.copyWith(

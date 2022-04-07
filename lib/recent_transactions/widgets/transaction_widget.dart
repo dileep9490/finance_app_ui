@@ -20,16 +20,7 @@ class TransactionWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(20),
-          boxShadow: const [
-            BoxShadow(
-              color: Colors.grey,
-              blurRadius: 5.0,
-              spreadRadius: 0.0,
-              offset: Offset(2.0, 2.0),
-            )
-          ]),
+          color: Colors.white, borderRadius: BorderRadius.circular(20)),
       padding: const EdgeInsets.all(20),
       child: Row(
         children: [
