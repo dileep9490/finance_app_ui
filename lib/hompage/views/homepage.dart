@@ -1,4 +1,4 @@
-import 'package:finance_app_ui/transactions/views/transactions_page.dart';
+import 'package:finance_app_ui/recent_transactions/views/recent_transactions_page.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/overview_transaction_widget.dart';
@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     ThemeData theme = Theme.of(context);
-//TODO: change color of bottom navigation bar items on tap
+
     return SafeArea(
       child: Scaffold(
         backgroundColor: theme.backgroundColor,
@@ -45,7 +45,8 @@ class _HomePageState extends State<HomePage> {
                       size: 30,
                     ),
                     onPressed: () {
-                      Navigator.of(context).pushNamed(TransactionPage.route);
+                      Navigator.of(context)
+                          .pushNamed(RecentTransactionPage.route);
                     },
                   ),
                 ),
